@@ -13,7 +13,7 @@ import RealityKit
 import SceneKit
 import UIKit
 
-class RealityKitViewController: UIViewController {
+internal class RealityKitViewController: UIViewController {
   
   /// The realitykit view
   var arView: ARView!

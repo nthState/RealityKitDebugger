@@ -11,7 +11,7 @@
 import RealityKit
 import UIKit
 
-class AxesEntity: Entity, HasModel, HasAnchoring {
+internal class AxesEntity: Entity, HasModel, HasAnchoring {
   
   required init(size: Float) {
     super.init()

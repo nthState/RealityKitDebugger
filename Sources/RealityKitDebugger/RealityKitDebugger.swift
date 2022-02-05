@@ -10,11 +10,15 @@
 
 import RealityKit
 
+/// How you want to view the item in the debugger
 public enum VisualizationShape {
   case sphere
   case cube
 }
 
+/**
+ Display a visual representation of a Transform/Material
+ */
 public class RealityKitDebugger {
   
   /**
